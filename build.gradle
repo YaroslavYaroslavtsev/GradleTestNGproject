@@ -16,7 +16,10 @@ dependencies {
     // https://mvnrepository.com/artifact/org.assertj/assertj-core
     testCompile group: 'org.assertj', name: 'assertj-core', version: '3.11.1'
     // https://mvnrepository.com/artifact/ru.yandex.qatools.allure/allure-testng-adaptor
-    testCompile group: 'ru.yandex.qatools.allure', name: 'allure-testng-adaptor', version: '1.5.4'
+//    testCompile group: 'ru.yandex.qatools.allure', name: 'allure-testng-adaptor', version: '1.5.4'
+    testCompile group: 'io.qameta.allure', name: 'allure-testng', version: '2.6.0'
+
+
 }
 
 
