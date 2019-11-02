@@ -9,7 +9,7 @@ public class ExampleTest {
     public void testOne() {
         assertThat(true)
                 .as("AssertTrue")
-                .isFalse();
+                .isTrue();
     }
 
     @Test
