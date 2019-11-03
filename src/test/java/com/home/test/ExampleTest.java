@@ -1,7 +1,6 @@
-import io.qameta.allure.Epic;
-import io.qameta.allure.Feature;
-import io.qameta.allure.Step;
-import io.qameta.allure.Story;
+package com.home.test;
+
+import io.qameta.allure.*;
 import org.testng.annotations.Test;
 
 import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
@@ -12,7 +11,9 @@ import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
 public class ExampleTest {
 
     @Test
+    @TmsLink("test-1")
     @Story("Тест 1")
+    @Description("Описание теста")
     public void testOne() {
         assertThat(true)
                 .as("AssertTrue")
@@ -20,6 +21,7 @@ public class ExampleTest {
     }
 
     @Test
+    @Issue("123")
     @Story("Тест 2")
     public void testTwo() {
         step1();
