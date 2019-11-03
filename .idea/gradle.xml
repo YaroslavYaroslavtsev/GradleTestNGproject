@@ -8,6 +8,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/micros" />
+            <option value="$PROJECT_DIR$/micros/service1" />
+            <option value="$PROJECT_DIR$/micros/service2" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />

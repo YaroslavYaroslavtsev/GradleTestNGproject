@@ -1,2 +1,6 @@
 rootProject.name = 'GradleTestNGproject'
+include 'micros:service1'
+include 'micros'
+include 'micros:service2'
+findProject(':micros:service2')?.name = 'service2'
 
