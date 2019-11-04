@@ -21,10 +21,10 @@ dependencies {
 
 allure {
 
-    version = '2.4.0'
+   //version = '2.4.0'
     autoconfigure = true
     aspectjweaver = true
-    allureJavaVersion = "1.8"
+  //  allureJavaVersion = "1.8"
 
 }
 
